@@ -1,10 +1,11 @@
-public class Epayco {
+public struct Epayco {
     let API_URL     = "https://api.secure.epayco.xyz"
-    let SECURE_URL  = "String"
+    let SECURE_URL  = "https://secure.epayco.io"
     var PUBLIC_KEY  : String
     var PRIVATE_KEY : String
+    
     public init(publicKey: String, privateKey: String){
-        self.PUBLIC_KEY = publicKey
+        self.PUBLIC_KEY  = publicKey
         self.PRIVATE_KEY = privateKey
     }
     
