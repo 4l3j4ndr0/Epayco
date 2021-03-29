@@ -9,6 +9,10 @@ public struct Epayco {
         self.PRIVATE_KEY = privateKey
     }
     
+    public func creteCreditToken(creditToken: CreditToken) -> CreditToken{
+        return creditToken
+    }
+    
     public func sdkTest() -> String {
         return "This is a SDK ios by ePayco company."
     }
