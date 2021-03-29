@@ -1,4 +1,4 @@
-public class Epayco {
+public class Main{
     let API_URL     = "https://api.secure.epayco.xyz"
     let SECURE_URL  = "String"
     var PUBLIC_KEY  : String
@@ -7,8 +7,5 @@ public class Epayco {
         self.PUBLIC_KEY = publicKey
         self.PRIVATE_KEY = privateKey
     }
-    
-    public func sdkTest() -> String {
-        return "This is a SDK ios by ePayco company."
-    }
+
 }
