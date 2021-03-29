@@ -8,7 +8,7 @@ public struct Epayco {
         self.PRIVATE_KEY = privateKey
     }
     
-    public func prueba() -> String {
-        return self.PUBLIC_KEY
+    public func sdkTest() -> String {
+        return "This is a SDK ios by ePayco company."
     }
 }
