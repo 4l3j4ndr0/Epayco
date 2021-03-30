@@ -9,7 +9,7 @@ public struct Epayco {
         self.PRIVATE_KEY = privateKey
     }
     
-    public func creteCreditToken() -> String{
+    public func createCreditToken() -> String{
         let c = CreditToken()
         
         c.card_number = "pruebas"
