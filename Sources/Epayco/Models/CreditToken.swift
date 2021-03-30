@@ -1,5 +1,5 @@
 
-public class CreditToken {
+public protocol CreditToken {
     var card_number     : String
     var exp_year        : String
     var exp_month       : String

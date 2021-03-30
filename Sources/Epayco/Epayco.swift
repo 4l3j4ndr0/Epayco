@@ -9,8 +9,8 @@ public struct Epayco {
         self.PRIVATE_KEY = privateKey
     }
     
-    public func creteCreditToken(creditToken: CreditToken) -> String{
-        return creditToken.card_number
+    public func creteCreditToken(creditToken: CreditToken) -> CreditToken{
+        return creditToken
     }
     
     public func sdkTest() -> String {
