@@ -1,7 +1,7 @@
 
 public class CreditToken {
-    var card_number     : String {get set}
-    var exp_year        : String {get set}
-    var exp_month       : String {get set}
-    var cvv             : String {get set}
+    var card_number     : String {get}
+    var exp_year        : String {get}
+    var exp_month       : String {get}
+    var cvv             : String {get}
 }
