@@ -11,6 +11,7 @@ public struct Epayco {
     
     public func creteCreditToken() -> String{
         let c = CreditToken()
+        
         c.card_number = "pruebas"
         return c.card_number
     }
